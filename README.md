@@ -32,15 +32,16 @@ A different, or even a custom fine-tuned, LLM model can be substituted for "gpt2
 
 ## Feedback Functionality
 
-This module allows users to provide feedback on the generated responses. While the user interface for feedback submission is functional, the actual implementation of sending and storing feedback requires additional server-side logic. This functionality is not tested in this draft.
+Feedback Functionality for the LLM interface may or may not be desired. If implemented they may pose additional security or privacy compliance concerns which will need to be mitigated based on your particular circumstances. This module could be enabled to allow users to provide feedback on the generated responses. While the user interface for feedback submission is partially built-out, the actual implementation of sending and storing feedback requires additional server-side logic, and is currently not operational. This functionality is not tested in this draft.
 
 ## Next Steps for Feedback Functionality:
 
-To fully enable feedback functionality, you will need to develop server-side code to handle the following:
+To fully enable feedback functionality, if desired, you will need to develop server-side code to handle the following:
 
 Receiving user feedback submitted via the web interface.
 Processing and analyzing the feedback data.
 Storing the feedback data for future analysis and potential model improvement.
+Mitigate any security or privacy compliance concerns which may arise from feedback functionality.
 
 ## Note
 
