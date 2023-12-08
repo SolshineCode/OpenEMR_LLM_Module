@@ -24,6 +24,18 @@ The module consists of several parts:
 
 To use this module, you need to have OpenEMR installed. Place the module's directory in the `interface/modules/custom_modules/` directory of your OpenEMR installation. Then, you can enable the module from the OpenEMR interface.
 
+## Feedback Functionality
+
+This module allows users to provide feedback on the generated responses. While the user interface for feedback submission is functional, the actual implementation of sending and storing feedback requires additional server-side logic. This functionality is not tested in this draft.
+
+## Next Steps for Feedback Functionality:
+
+To fully enable feedback functionality, you will need to develop server-side code to handle the following:
+
+Receiving user feedback submitted via the web interface.
+Processing and analyzing the feedback data.
+Storing the feedback data for future analysis and potential model improvement.
+
 ## Note
 
 This is a high-level overview and the actual implementation may vary depending on the specifics of your OpenEMR installation and the Hugging Face model you want to use. You should refer to the OpenEMR and Hugging Face documentation for more detailed information.
