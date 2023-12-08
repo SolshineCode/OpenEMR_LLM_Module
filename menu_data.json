@@ -1,0 +1,10 @@
+[
+  {
+    "label": "Medical Assistant LLM",
+    "menu_id": "llm0",
+    "target": "mod",
+    "url": "/interface/modules/custom_modules/llm/llm.php",
+    "children": [],
+    "requirement": 0
+  }
+]
