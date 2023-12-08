@@ -6,5 +6,6 @@
     "url": "/interface/modules/custom_modules/llm/llm.php",
     "children": [],
     "requirement": 0
+    "hook": "custom_modules.llm0"
   }
 ]
