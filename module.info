@@ -1,0 +1,10 @@
+{
+  "name": "Medical Assistant LLM",
+  "acl_version": "1.0",
+  "acl": ["admin", "super"],
+  "version": "1.1",
+  "date": "2023-12-07",
+  "author": "Caleb DeLeeuw",
+  "email": "caleb.deleeuw.polychora@gmail.com",
+  "description": "A module that integrates a configurable Hugging Face language model for medical assistance, including patient data access and feedback functionality."
+}
