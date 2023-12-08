@@ -5,17 +5,21 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     $(document).ready(function(){
-      // Add OpenEMR page hook
-      OpenEMR.addPageHook('custom_modules.llm0', function() {
-        // Your module initialization logic here
-      });
-
       $("#submit").click(function(){
         var prompt = $("#prompt").val();
         // Fetch patient data if available
         var patient_data = ""; // Implement logic to retrieve patient data
-        $.post("response.php", {prompt: prompt, patient_data: patient_data}, function(data){
-          $("#response").html(data);
+        $.ajax({
+          url: "http://localhost:5000/generate",  // Replace with your Flask server URL
+          type: "post",
+          data: JSON.stringify({prompt: prompt, patient_data: patient_data}),
+          contentType: "application/json",
+          success: function(data){
+            $("#response").html(data.response);
+          },
+          error: function(){
+            alert("Error: Could not generate response.");
+          }
         });
       });
       $("#feedback").click(function(){
