@@ -26,9 +26,9 @@ The module consists of several parts:
 
 ## Usage
 
-To use this module, you need to have OpenEMR installed. Place the module's directory in the `interface/modules/custom_modules/` directory of your OpenEMR installation, and fill any details specified in the in-code comments to your personal settings. Then, you can enable the module from the OpenEMR interface.
+To use this module, you need to have OpenEMR installed. Place the module's directory in the `interface/modules/custom_modules/` directory of your OpenEMR installation, and fill any details specified in the in-code comments to your personal settings. It may also be helpful to remove the Notes_in_review_and_development document. Then, you can enable the module from the OpenEMR interface.
 
-A fine-tuned LLM model can be substituted for "gpt2". You would need to replace "gpt2" in the llm.py file with the identifier of your fine-tuned model. If your model is hosted on Hugging Face's model hub, the identifier would be in the format "username/model_name".
+A different, or even a custom fine-tuned, LLM model can be substituted for "gpt2". You would need to replace "gpt2" in the llm.py file with the identifier of your desired model, or add in the URL and desired downloader for your fine-tuned model. If your model is hosted on Hugging Face's model hub, the identifier would be in the format "username/model_name".
 
 ## Feedback Functionality
 
