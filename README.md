@@ -5,6 +5,8 @@ An OpenEMR module creating a new tab with an LLM downloaded from Hugging Face an
 
 This project is a custom module for OpenEMR that integrates a Hugging Face language model to assist with medical tasks. The module adds a new tab to the OpenEMR interface, where users can interact with the language model.
 
+It is currently in Beta Testing. Please test out in your non-live systems and provide feedback in the community tab.
+
 ## Features
 
 - Integration with a Hugging Face language model: The module uses the `transformers` library to download and use a language model. The model can be loaded with `AutoModelForCausalLM.from_pretrained(model_name)`.
