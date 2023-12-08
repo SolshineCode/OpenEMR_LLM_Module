@@ -5,7 +5,7 @@
     "target": "mod",
     "url": "/interface/modules/custom_modules/llm/llm.php",
     "children": [],
-    "requirement": 0
+    "requirement": 0,
     "hook": "custom_modules.llm0"
   }
 ]
