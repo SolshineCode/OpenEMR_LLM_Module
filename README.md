@@ -5,7 +5,7 @@ An OpenEMR module creating a new tab with an LLM downloaded from Hugging Face an
 
 This project is a custom module for OpenEMR that integrates a Hugging Face language model to assist with medical tasks. The module adds a new tab to the OpenEMR interface, where users can interact with the language model.
 
-It is currently in Beta Testing. Please test out in your non-live systems and provide feedback in the community tab.
+It is currently in Beta Testing. Please test out in your non-live systems and provide feedback in the comments or by DMing @ SolshineCode on Github or Solshine on Hugging Face.
 
 ## Features
 
