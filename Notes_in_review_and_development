@@ -1,3 +1,7 @@
+Ran through LLM code interpreters, here are the reviews:
+
+## Bard's review notes prior to Dec 8th big fix:
+
 ## llm.py:
 
 model_name: Instead of hardcoding "gpt2", use a variable or configuration file to define the model name, allowing for easy switching between models.
