@@ -9,9 +9,9 @@ It is currently in Beta Testing and being an independant open source contributio
 
 ## Features
 
-- Integration with a Hugging Face language model: The module uses the `transformers` library to download and use a language model. The model can be loaded with `AutoModelForCausalLM.from_pretrained(model_name)`.
+- Integration with a Hugging Face language model: The module uses the `transformers` library to download and use a language model locally.
 - New tab in OpenEMR: The module adds a new tab to the OpenEMR interface, where users can interact with the language model. The tab includes a prompt window where users can input a prompt, and an answer window where the model's response is displayed.
-- Connection to OpenEMR patient data: The module can retrieve patient data from OpenEMR and pass it to the language model.
+- Connection to OpenEMR patient data: The module can retrieve patient data from OpenEMR and pass it to the language model (patient data retrieval still needs some development.)
 - The implementation of patient data retrieval and feedback functionality requires further development.
 
 ## Code Overview
@@ -26,7 +26,9 @@ The module consists of several parts:
 
 ## Usage
 
-To use this module, you need to have OpenEMR installed. Place the module's directory in the `interface/modules/custom_modules/` directory of your OpenEMR installation. Then, you can enable the module from the OpenEMR interface.
+To use this module, you need to have OpenEMR installed. Place the module's directory in the `interface/modules/custom_modules/` directory of your OpenEMR installation, and fill any details specified in the in-code comments to your personal settings. Then, you can enable the module from the OpenEMR interface.
+
+A fine-tuned LLM model can be substituted for "gpt2". You would need to replace "gpt2" in the llm.py file with the identifier of your fine-tuned model. If your model is hosted on Hugging Face's model hub, the identifier would be in the format "username/model_name".
 
 ## Feedback Functionality
 
