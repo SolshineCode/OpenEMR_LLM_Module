@@ -39,3 +39,11 @@ Storing the feedback data for future analysis and potential model improvement.
 ## Note
 
 This is a high-level overview and the actual implementation may vary depending on the specifics of your OpenEMR installation and the Hugging Face model you want to use. You should refer to the OpenEMR and Hugging Face documentation for more detailed information.
+
+## Disclaimer
+
+Early Work: Use responsibly at your own risk.
+
+This project is still under development and intended for research and educational purposes only. It may not be suitable for clinical use yet.
+
+While we strive for accuracy, the LLM's responses shouldn't be the sole basis for medical decisions. Always consult a qualified healthcare professional.
