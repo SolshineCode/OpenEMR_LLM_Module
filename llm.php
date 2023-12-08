@@ -5,6 +5,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     $(document).ready(function(){
+      // Add OpenEMR page hook
+      OpenEMR.addPageHook('custom_modules.llm0', function() {
+        // Your module initialization logic here
+      });
+
       $("#submit").click(function(){
         var prompt = $("#prompt").val();
         // Fetch patient data if available
