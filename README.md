@@ -20,7 +20,7 @@ The module consists of several parts:
 - `module.info`: This file describes the module and is required by OpenEMR.
 - `llm.py`: This Python script uses the `transformers` library to download and use a language model. It defines a function `generate_response` that takes a prompt as input, encodes it into a format that the model can understand, generates a response, and decodes the response into text.
 - `menu_data.json`: This file defines a new menu item that links to the module's GUI.
-- `module.config.php`: This file is a basic config for the custom module, where you can specify the Hugging Face model to use as the assistant chatbot.
+- `module.config.php`: This file is a basic config for the custom module. This is eventually where you can specify the Hugging Face model to use as the assistant chatbot (pending this function, which is available to specify for now in the llm.py file)
 - `llm.php`: This PHP file serves the module's GUI. It includes a form for the user to input a prompt, and a display area to show the model's response. It uses AJAX to send the prompt to a PHP script that interacts with the model and returns the response.
 
 ## Usage
