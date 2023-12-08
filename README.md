@@ -12,6 +12,7 @@ It is currently in Beta Testing and being an independant open source contributio
 - Integration with a Hugging Face language model: The module uses the `transformers` library to download and use a language model. The model can be loaded with `AutoModelForCausalLM.from_pretrained(model_name)`.
 - New tab in OpenEMR: The module adds a new tab to the OpenEMR interface, where users can interact with the language model. The tab includes a prompt window where users can input a prompt, and an answer window where the model's response is displayed.
 - Connection to OpenEMR patient data: The module can retrieve patient data from OpenEMR and pass it to the language model.
+- The implementation of patient data retrieval and feedback functionality requires further development.
 
 ## Code Overview
 
