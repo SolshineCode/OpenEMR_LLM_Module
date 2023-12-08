@@ -1,6 +1,6 @@
 Ran through LLM code interpreters, here are the reviews:
 
-## Bard / Gemini Dec 8th (after big fix) review:
+## Bard / Gemini Dec 8th 2023 (after big fix) review:
 
 ## Critique and Feedback for the LLM Module
 
@@ -62,7 +62,7 @@ This is a promising start for an OpenEMR custom module that integrates a Hugging
 **Overall, this LLM module has promising potential. Addressing the mentioned areas for improvement and incorporating additional features will further enhance its functionality and value for medical professionals.**
 
 
-## Bard's review notes prior to Dec 8th big fix:
+## Bard's review notes prior to Dec 8th 2023 "big fix":
 
 ## llm.py:
 
