@@ -53,6 +53,6 @@ Early Work: Use responsibly at your own risk.
 
 Patient data and LLMs which interface with patient data should always be ran locally and encrypted. We have done our best to enable this through having the LLM downloaded and ran on your localy system and through interfacing with patient data within OpenEMR itself. As such, we strongly suggest this be ran on /encrypted/ devices with adequete security and data ethics policies.
 
-This project is still under development and intended for research and educational purposes only. It may not be suitable for clinical use yet.
+This project is still under development and intended for research and educational purposes only. It may not be suitable for clinical use yet. Testers welcome. Implement in your operational systems at your own risk.
 
 While we strive for accuracy, the LLM's responses shouldn't be the sole basis for medical decisions. Always consult a qualified healthcare professional.
