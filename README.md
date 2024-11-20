@@ -1,4 +1,9 @@
 # OpenEMR_LLM_Module
+
+//Work in progress, not tested for professional deployment, yet//
+
+PRs welcome 🤗 
+
 An OpenEMR module creating a new tab with an LLM downloaded from Hugging Face and ran locally (to assure patient data privacy compliance) and able to analyze patient data conversationally.
 
 ## Medical Assistant LLM Module for OpenEMR
