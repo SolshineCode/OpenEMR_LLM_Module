@@ -1,0 +1,20 @@
+graph TD
+    A[OpenEMR Web Interface] -->|User Interaction| B[OpenEMR LLM Module]
+    B -->|Patient Data Retrieval| C[OpenEMR Patient Database]
+    B -->|Local Model Inference| D[Ollama Local LLM Server]
+    D -->|Model Hosting| E[Medical LLM Model]
+    F[Patient Data Anonymization] -->|Secure Data Handling| B
+    G[Logging & Audit Trail] -->|Tracks Interactions| B
+
+    subgraph Security Boundary
+        F
+        G
+    end
+
+    classDef system fill:#f9f,stroke:#333,stroke-width:4px;
+    classDef data fill:#bbf,stroke:#333,stroke-width:2px;
+    classDef security fill:#bfb,stroke:#333,stroke-width:2px;
+
+    class A,B,D system;
+    class C,E data;
+    class F,G security;
