@@ -4,6 +4,8 @@
 
 PRs welcome 🤗 
 
+Currently being updated to run via Ollama
+
 An OpenEMR module creating a new tab with an LLM downloaded from Hugging Face and ran locally (to assure patient data privacy compliance) and able to analyze patient data conversationally.
 
 ## Medical Assistant LLM Module for OpenEMR
