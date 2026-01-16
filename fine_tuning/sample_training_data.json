@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What are the common symptoms of type 2 diabetes?",
+    "answer": "Common symptoms of type 2 diabetes include:\n\n1. Increased thirst (polydipsia)\n2. Frequent urination (polyuria)\n3. Increased hunger (polyphagia)\n4. Unintended weight loss\n5. Fatigue and weakness\n6. Blurred vision\n7. Slow-healing sores or frequent infections\n8. Numbness or tingling in hands or feet\n9. Areas of darkened skin (acanthosis nigricans)\n\nMany people with type 2 diabetes have no symptoms initially. Regular screening is recommended for adults over 45 or those with risk factors."
+  },
+  {
+    "question": "What is the first-line treatment for hypertension?",
+    "answer": "First-line pharmacological treatments for hypertension include:\n\n1. ACE inhibitors (e.g., lisinopril, enalapril)\n2. Angiotensin II receptor blockers (ARBs) (e.g., losartan, valsartan)\n3. Calcium channel blockers (e.g., amlodipine, nifedipine)\n4. Thiazide diuretics (e.g., hydrochlorothiazide, chlorthalidone)\n\nThe choice depends on patient characteristics:\n- ACE inhibitors/ARBs: Preferred for patients with diabetes, chronic kidney disease, or heart failure\n- Calcium channel blockers: Often preferred for Black patients and elderly\n- Thiazides: Effective and cost-efficient for many patients\n\nLifestyle modifications (diet, exercise, weight loss, sodium reduction) should accompany medication therapy."
+  },
+  {
+    "question": "How do you interpret a complete blood count (CBC) with elevated WBC?",
+    "answer": "An elevated white blood cell count (leukocytosis) can indicate various conditions:\n\n**Common causes:**\n1. Infection (bacterial, viral, fungal)\n2. Inflammation\n3. Stress response (physical or emotional)\n4. Medications (corticosteroids, lithium)\n5. Allergic reactions\n\n**Serious causes:**\n1. Leukemia or lymphoma\n2. Myeloproliferative disorders\n3. Severe infections (sepsis)\n\n**Interpretation approach:**\n1. Review the differential count (neutrophils, lymphocytes, etc.)\n2. Consider clinical context and patient symptoms\n3. Look for left shift (increased bands/immature cells)\n4. Compare with previous values\n5. Order additional tests as indicated\n\nNormal WBC range: 4,500-11,000 cells/mcL in adults."
+  },
+  {
+    "question": "What are the contraindications for using metformin?",
+    "answer": "Metformin contraindications include:\n\n**Absolute contraindications:**\n1. Severe renal impairment (eGFR < 30 mL/min/1.73m²)\n2. Acute or chronic metabolic acidosis, including diabetic ketoacidosis\n3. History of lactic acidosis while on metformin\n4. Hypersensitivity to metformin\n\n**Relative contraindications/Cautions:**\n1. Moderate renal impairment (eGFR 30-45): Reduce dose, monitor closely\n2. Hepatic impairment\n3. Excessive alcohol intake\n4. Conditions predisposing to hypoxia (heart failure, respiratory failure)\n5. Dehydration or hypovolemia\n6. Major surgery or radiological studies with iodinated contrast\n\n**Recommendations:**\n- Hold metformin 48 hours before and after IV contrast administration\n- Monitor renal function at least annually\n- Educate patients about symptoms of lactic acidosis"
+  },
+  {
+    "question": "What is the recommended screening schedule for colorectal cancer?",
+    "answer": "Colorectal cancer screening recommendations (average risk adults):\n\n**Start screening at age 45** (updated from 50 per USPSTF 2021)\n\n**Screening options:**\n\n1. **Stool-based tests:**\n   - FIT (fecal immunochemical test): Annually\n   - gFOBT (guaiac fecal occult blood test): Annually\n   - FIT-DNA (Cologuard): Every 1-3 years\n\n2. **Direct visualization:**\n   - Colonoscopy: Every 10 years\n   - CT colonography: Every 5 years\n   - Flexible sigmoidoscopy: Every 5 years\n\n**High-risk individuals** (family history, IBD, genetic syndromes) should start earlier and screen more frequently.\n\n**Continue screening until age 75.** For ages 76-85, individualize based on health status and prior screening history.\n\nPositive stool tests require follow-up colonoscopy."
+  }
+]
