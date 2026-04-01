@@ -2,9 +2,15 @@
   "name": "Medical Assistant LLM",
   "acl_version": "1.0",
   "acl": ["admin", "super"],
-  "version": "1.1",
-  "date": "2023-12-07",
-  "author": "Caleb DeLeeuw",
+  "version": "2.0",
+  "date": "2025-01-16",
+  "author": "OpenEMR LLM Module Contributors",
   "email": "caleb.deleeuw.polychora@gmail.com",
-  "description": "A module that integrates a configurable Hugging Face language model for medical assistance, including patient data access and feedback functionality."
+  "description": "AI-powered medical assistant integrating local LLM inference (llama.cpp, Ollama) with OpenEMR for patient data-aware clinical decision support.",
+  "license": "GPL-3.0",
+  "requirements": {
+    "openemr": ">=7.0.0",
+    "php": ">=8.1",
+    "python": ">=3.10"
+  }
 }
